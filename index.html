@@ -2,14 +2,77 @@
 <html lang="en">
 
 <head>
-	<title></title>
+	<title>Technical Docs - CSS Child Selectors</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-	<main>
+	<main id="main-doc">
+		<section class="main-section" id="Introduction">
+			<h1>Introduction</h1>
+			<p>
+				CSS Child Selectors are pseudo-classes that allow you to apply styles to elements that are direct
+				children of a specified
+				parent.
+			</p>
+			<p>
+				There are various selectors available to target the child elements within a parent.
+			</p>
+		</section>
+		<section class="main-section" id="First_child">
+			<h1>First child</h1>
+			<p>
+				The <code>:first-child</code> selector targets the first child within the parent.
+			</p>
+		</section>
+		<section class="main-section" id="Last_child">
+			<h1>Last child</h1>
+			<p>
+				The <code>:last-child</code> selector targets the last child within the parent.
+			</p>
+		</section>
+		<section class="main-section" id="nth_child">
+			<h1>nth child</h1>
+			<p>
+				This selector takes an argument, <code>n</code>.
+			</p>
+			<p>
+				The <code>:nth-child(n)</code> selector targets the <code>n</code><sup>th</sup>-child within the parent.
+			</p>
+			<p>
+				Examples:
+			</p>
+			<ul>
+				<li><code>nth-child(3)</code> selects the 3<sup>rd</sup> child</li>
+				<li><code>nth-child(5)</code> selects the 5<sup>th</sup> child</li>
+				<li><code>nth-child(9)</code> selects the 9<sup>th</sup> child</li>
+			</ul>
+		</section>
+		<section class="main-section" id="Even_or_Odd_children">
+			<h1>Even or Odd children</h1>
+			<p>
+				The <code>:nth-child-even</code> selector targets the even children in the parent.
+			</p>
+			<p>
+				The <code>:nth-child-odd</code> selector targets the odd children in the parent.
+			</p>
+			<p>
+				A neat use case is to alternate the colors of table rows.
+			</p>
+			<p>
+				Examples:
+			</p>
+			<ul>
+				<li><code>:nth-child-even</code> selects even children, viz. 2, 4, 6, and so on</li>
+				<li><code>:nth-child-odd</code> selects odd children, viz. 1, 3, 5, and so on</li>
+			</ul>
+		</section>
+		<section class="main-section" id="Reference">
+			<h1>Reference</h1>
+			<a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child">Mozilla MDN</a>
+		</section>
 	</main>
 </body>
 
