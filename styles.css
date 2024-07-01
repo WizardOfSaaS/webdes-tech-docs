@@ -48,7 +48,7 @@ a {
 	color: gray;
 }
 
-a:hover {
+a:hover {	
 	color: black;
 	background-color: slategray;
 }
@@ -59,4 +59,10 @@ p {
 
 main li {
 	margin-left: 2em;	
+}
+
+@media (max-width: 600px) {
+	body {
+		flex-direction: column;
+	}
 }
