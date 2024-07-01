@@ -23,7 +23,7 @@ body {
 	list-style: none;
 }
 
-#navbar h1 {
+#navbar header {
 	font-weight: normal;
 	font-size: 22px;
 	padding: 10px;
@@ -37,7 +37,7 @@ main {
 	margin: 5px 10px;	
 }
 
-main h1 {
+main header {
 	font-weight: lighter;
 	padding: 10px 0;
 	font-size: 20px;
