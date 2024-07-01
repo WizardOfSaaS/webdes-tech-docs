@@ -6,4 +6,57 @@
 
 body {
 	font-family: Arial, Helvetica, sans;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+#navbar {
+	border: 1px solid gray;
+	margin: 5px;
+	padding: 10px;
+}
+
+#navbar li {
+	padding: 8px;
+	border: 1px solid black;
+	list-style: none;
+}
+
+#navbar h1 {
+	font-weight: normal;
+	font-size: 22px;
+	padding: 10px;
+}
+
+main {
+	margin: 30px 10px 20px 20px;
+}
+
+.main-section {
+	margin: 5px 10px;	
+}
+
+main h1 {
+	font-weight: lighter;
+	padding: 10px 0;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+a {
+	color: gray;
+}
+
+a:hover {
+	color: black;
+	background-color: slategray;
+}
+
+p {
+	margin: 0.25em 0.75em 0.75em;
+}
+
+main li {
+	margin-left: 2em;	
 }
